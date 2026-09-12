@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher - Communication Aid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Teacher Screen -->
+    <header class="app-header">
+        <h1>Notifications</h1>
+        <div class="header-buttons">
+            <button id="languageButton">FI / EN</button>
+            <div class="status-badge">
+                <span class="icon">🟢</span>
+                <span class="text">Online</span>
+            </div>
+            <div class="user-profile">
+                <span class="icon">👩‍🏫</span>
+                <span class="text">Ms. Taylor</span>
+            </div>
+        </div>
+    </header>
+
+    <main class="teacher-screen">
+
+        <!-- Notification Card Header -->
+        <div class="card-header">
+            <span class="icon">🔔</span>
+            <h2>New Message from Student</h2>
+        </div>
+
+        <!-- Student Details Card -->
+        <article class="request-card">
+
+            <div class="student-info">
+                <span class="icon">👦</span>
+                <div class="student-details">
+                    <h3>Alex Johnson</h3>
+                    <p>Grade 2 • Room 101</p>
+                </div>
+            </div>
+
+            <!--Student message-->
+            <div class="request-content">
+                <span class="icon">🚽</span>
+                <div class="request-text">
+                    <span class="label">Child needs:</span>
+                    <span class="text highlight-red">Toilet</span>
+                </div>
+            </div>
+
+            <div class="request-time">
+                <span class="icon">🕒</span>
+                <span class="text">Sent at: Today, 10:32 AM</span>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="request-actions">
+                <button class="acknowledge-button">
+                    <span class="icon">✅</span>
+                    <span class="text">Acknowledge</span>
+                </button>
+                <button class="details-button">
+                    <span class="icon">👁️</span>
+                    <span class="text">View Details</span>
+                </button>
+            </div>
+
+        </article>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

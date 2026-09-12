@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student - Communication Aid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Student Screen -->
+    <header class="app-header">
+        <h1>Communication Aid</h1>
+        <div class="header-buttons">
+            <button id="languageButton">FI / EN</button>
+        </div>
+    </header>
+
+    <main class="student-screen">
+
+        <h2>Hello Alex, Welcome</h2>
+        <p class="instruction">What do you want?</p>
+
+        <!-- Communication Buttons -->
+        <section class="needs-grid">
+
+            <button class="need-button tile-water" data-message="Water">
+                <span class="icon">🥤</span>
+                <span class="text">Water</span>
+            </button>
+
+            <button class="need-button tile-food" data-message="Food">
+                <span class="icon">🍎</span>
+                <span class="text">Food</span>
+            </button>
+
+            <button class="need-button tile-toilet" data-message="Toilet">
+                <span class="icon">🚽</span>
+                <span class="text">Toilet</span>
+            </button>
+
+            <button class="need-button tile-tired" data-message="Tired">
+                <span class="icon">😴</span>
+                <span class="text">Tired</span>
+            </button>
+
+            <button class="need-button tile-angry" data-message="Angry">
+                <span class="icon">😠</span>
+                <span class="text">Angry</span>
+            </button>
+
+            <button class="need-button tile-pain" data-message="Pain">
+                <span class="icon">🤕</span>
+                <span class="text">Pain</span>
+            </button>
+
+        </section>
+
+        <!-- Selected Message -->
+        <section class="message-area">
+            <h2>Your message</h2>
+            <p id="selectedMessage">Tap a tile above to select</p>
+            <button id="sendButton" class="send-button">Send to Teacher</button>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
